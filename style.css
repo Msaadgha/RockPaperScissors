@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #87CEEB; /* Light blue background */
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.choices button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.result p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.robot-avatar {
+    width: 100px;
+    height: 100px;
+    background: url('OIP.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 0 auto 20px;
+}
